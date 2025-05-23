@@ -43,7 +43,7 @@ if video_file is not None:
         stframe.image(frame, channels="RGB")
 
         # Optional delay
-        cv2.waitKey(30)
+        #cv2.waitKey(30)
 
     cap.release()
     os.unlink(tfile.name)
